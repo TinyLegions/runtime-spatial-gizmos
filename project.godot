@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "StaticBody",
 "class": "RuntimeSpatialGizmo",
 "language": "GDScript",
-"path": "res://MovementHandler.gd"
+"path": "res://addons/RuntimeSpatialGizmos/MovementHandler.gd"
 } ]
 _global_script_class_icons={
 "RuntimeSpatialGizmo": ""
@@ -21,6 +21,10 @@ _global_script_class_icons={
 [application]
 
 config/name="runtime-spatial-gizmos"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "RuntimeSpatialGizmos" )
 
 [input_devices]
 

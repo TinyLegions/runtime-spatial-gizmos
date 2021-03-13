@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://RuntimeSpatialGizmo.tscn" type="PackedScene" id=1]
-[ext_resource path="res://GizmoMaterial.tres" type="Material" id=2]
+[ext_resource path="res://addons/RuntimeSpatialGizmos/RuntimeSpatialGizmo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://addons/RuntimeSpatialGizmos/GizmoMaterial.tres" type="Material" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 material = ExtResource( 2 )
